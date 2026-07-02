@@ -1,0 +1,31 @@
+# Core ML stack
+torch==2.3.1
+torchvision==0.18.1
+diffusers==0.29.2
+transformers==4.42.4
+accelerate==0.32.1
+xformers==0.0.27
+
+# QR generation + scanning (the "3 readers" for fidelity testing)
+qrcode==7.4.2
+pyzbar==0.1.9
+opencv-python==4.10.0.84
+# pylibdmtx and a third decoder added in Phase 3
+
+# API layer
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+pydantic==2.8.2
+
+# Firebase
+firebase-admin==6.5.0
+
+# Utilities
+pillow==10.4.0
+numpy==1.26.4
+python-dotenv==1.0.1
+
+# Metrics / benchmarking
+pandas==2.2.2
+matplotlib==3.9.1
