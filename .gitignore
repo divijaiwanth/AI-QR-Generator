@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Model caches (huge files - never commit)
+models/
+*.safetensors
+*.ckpt
+huggingface_cache/
+
+# Generated outputs
+outputs/
+*.png
+!docs/**/*.png
+
+# Env / secrets
+.env
+firebase-credentials.json
+serviceAccountKey.json
+
+# Logs / metrics
+logs/
+metrics/*.csv
+metrics/*.json
+
+# IDE
+.vscode/
+.idea/
